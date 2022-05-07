@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+
+     /* BODY*/ 
+    body{
+        background: #000000;
+    }
+      /* HEADER */ 
+.header{  
+width: 100%;
+}
+/*TITULO DE  HEADER */ 
+.header .titulo {
+    left: 0px;
+    background: #000000 0% 0% no-repeat padding-box;
+    color: #ffff;
+    text-align: center;
+    opacity: 1;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*imagen del header */ 
+.header .imagen img{  
+width: 100%;
+height: 100%;
+}
+/*CONTENIDO PRINCIPAL */ 
+/*CONTENEDOR DE CONTENIDO PRINCIPAL */ 
+.parrafo {
+width: 100%;
+background: #000000 0% 0% no-repeat padding-box;
+font: normal normal 300 16px/19px Raleway;
+}
+.parrafo img{   /* IMG DE BANNER#1 */ 
+   margin-left:150px;
+    width: 399px;
+    height: 197px;
+    display: inline-block;  
+}
+.parrafo p{   /* PARRAFO DE BANNER#1 */ 
+    margin-left:150px;
+    width: 475px;
+    height: 197px;
+    text-align: justify;
+    display: inline-block;
+    color: #FFFFFF;
+}
+/* ICONOS BANNER#2 */   .banner2{
+ background: #1E1A13 0% 0% no-repeat padding-box;
+width: 100%; height: 300px
+            }
+ .banner2 h2{
+ text-align: center;
+ color: #FFFFFF;
+opacity: 1px;
+font-family: 'Times New Roman', Times, serif;
+ padding-top:60px;
+ padding-bottom: 35px;
+ opacity: 8;
+}
+ .banner2 .iconos {
+padding: 5px 0;
+text-align: center;
+font-size: 33px;
+letter-spacing: 50px;
+opacity: 8;
+color: #ffff;
+}
+    /* TEXTOS  DE BANNER#2 */
+.textos{
+position: absolute;
+right: 450px;
+ }
+
+.banner2 span {
+ margin-right: 50px;
+ color: #FFFFFF;  
+ font: normal normal   Raleway;
+ }
+
+ /*FIN DE  BANNER#2 */
+
+ /*GALERIA*/
+ .gallery {
+    text-align: center;
+    padding: 63px 0px;
+
+  }
+  .photo {
+    width: 25%;
+    padding: 10px 3px;
+     display: inline-block;
+  }
+  .photo img {
+    /*Ajustar tamaño de la imagen*/
+    width: 100%;
+    height: 200px;
+  }    
+  /*FIN DE GALERIA*/
+ 
+/*FOOTER */
+  footer{
+    height: 60px;
+  background:#1E1A13 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 40px;
+  }  
+
+
+
+           
+        
